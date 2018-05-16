@@ -6,7 +6,7 @@ class School
 
   def initilize(name)
     @name = name
-    NAME
+    NEW
   end
 
 end
