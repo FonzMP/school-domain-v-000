@@ -2,7 +2,7 @@
 
 class School
 
-  @@new = []
+  @@new = {}
 
   def initilize(name)
     @name = name
