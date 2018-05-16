@@ -4,7 +4,6 @@ class School
 
   def initilize(name)
     @name = name
-    self.NEW = {}
   end
 
 end
