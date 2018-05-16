@@ -2,7 +2,7 @@
 
 class School
 
-  def initilize(name)
+  def initilize(new = {})
     @name = name
   end
 
