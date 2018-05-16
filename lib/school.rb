@@ -5,7 +5,7 @@ class School
   NEW = []
 
   def initilize(name)
-    @name = name
+    @name = na{}
   end
 
 end
