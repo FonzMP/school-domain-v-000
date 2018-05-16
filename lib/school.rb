@@ -4,7 +4,7 @@ class School
 
   def initilize(name)
     @name = name
-    @@new = Hash.new(false)
+    self.NEW = {}
   end
 
 end
