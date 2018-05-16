@@ -4,8 +4,8 @@ class School
 
   attr_accesor :new
 
-  def initilize(new = {})
-    
+  def initilize(name)
+    @name = name
   end
 
 end
