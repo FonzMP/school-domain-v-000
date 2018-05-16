@@ -2,11 +2,11 @@
 
 class School
 
-  @@new
+  @@new = []
 
   def initilize(name)
     @name = name
-    @new = Hash.new(false)
+    @@new = Hash.new(false)
   end
 
 end
