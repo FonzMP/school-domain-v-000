@@ -4,7 +4,7 @@ class School
 
   def initilize(name)
     @name = name
-    @roster = Hash.new(false)
+    @new = Hash.new(false)
   end
 
 end
