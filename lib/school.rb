@@ -7,7 +7,4 @@ class School
     roster
   end
 
-  def roster
-    NEW = []
-  end
 end
