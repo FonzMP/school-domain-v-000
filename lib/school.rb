@@ -36,7 +36,7 @@ class School
         puts item
       end
     end
-    
+
   end
 
 end
