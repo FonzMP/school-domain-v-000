@@ -2,7 +2,7 @@
 
 class School
 
-  attr_accessor :roster
+  attr_accessor :roster, :add_student
 
   def initialize(name)
     @name = name
