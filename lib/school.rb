@@ -16,8 +16,8 @@ class School
   end
 
   def add_student
-    School.roster.key << grade
-    School.roster.value << student_name
+    School.roster.key << @grade
+    School.roster.value << @student_name
   end
 
 end
