@@ -35,6 +35,7 @@ class School
     @roster.each do |key, value|
       holder << value
     end
+    holder.sort
   end
 
 end
