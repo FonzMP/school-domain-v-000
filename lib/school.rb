@@ -14,7 +14,6 @@ class School
     @grade = grade
     School.roster.key << grade
     School.roster.value << student_name
-
   end
 
 end
