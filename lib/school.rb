@@ -20,6 +20,11 @@ class School
 
   def grade(grade)
     @roster.each do |key, value|
+      if grade = key
+        holder << key
+      end
+    end
+    return holder
   end
 
 end
