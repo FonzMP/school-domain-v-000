@@ -31,6 +31,7 @@ class School
   end
 
   def sort
+    holder = []
     @roster.each do |key, value|
       puts value
     end
