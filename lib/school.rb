@@ -19,6 +19,7 @@ class School
   end
 
   def grade(grade)
+    holder = {}
     @roster.each do |key, value|
       if grade = key
         holder << key
