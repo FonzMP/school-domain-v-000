@@ -14,8 +14,5 @@ class School
     @roster << student_name
   end
 
-  def add_student
-    @student
-  end
 
 end
