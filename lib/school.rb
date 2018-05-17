@@ -32,8 +32,7 @@ class School
 
   def sort
     @roster.each do |key, value|
-      key.each do |item|
-        value.sort
+      value.sort
       end
     end
   end
