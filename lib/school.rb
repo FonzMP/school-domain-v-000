@@ -19,7 +19,7 @@ class School
   end
 
   def grade(grade)
-    @roster[grade]
+    @roster.each do |key, value|
   end
 
 end
