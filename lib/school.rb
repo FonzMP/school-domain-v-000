@@ -22,7 +22,7 @@ class School
     holder = []
     @roster.each do |key, value|
       if grade = key
-        holder << key
+        holder << value
       end
     end
     return holder
