@@ -30,4 +30,8 @@ class School
     return holder
   end
 
+  def sort
+
+  end
+
 end
