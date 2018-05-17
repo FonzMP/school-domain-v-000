@@ -34,7 +34,6 @@ class School
     @roster.each do |key, value|
       key.each { |x| puts value  }
     end
-    end
   end
 
 end
