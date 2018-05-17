@@ -10,10 +10,7 @@ class School
   end
 
   def add_student(student_name, grade)
-    @grade = grade
-    @roster.key = grade
-    @student_name = student_name
-    @roster.value = student_name
+    @roster[grade] << student_name
   end
 
 end
