@@ -11,6 +11,7 @@ class School
 
   def add_student(school, student_name)
     school.student << student_name
+    school.roster << student_name
   end
 
 end
