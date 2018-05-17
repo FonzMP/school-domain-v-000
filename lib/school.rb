@@ -35,6 +35,7 @@ class School
       key.each do |item|
         puts item
       end
+    end
   end
 
 end
