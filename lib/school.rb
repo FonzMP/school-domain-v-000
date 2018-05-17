@@ -36,6 +36,7 @@ class School
       holder << value
     end
     holder.sort
+    return holder
   end
 
 end
