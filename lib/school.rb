@@ -32,7 +32,7 @@ class School
 
   def sort
     @roster.each do |key, value|
-      put value
+      puts value
     end
   end
 
